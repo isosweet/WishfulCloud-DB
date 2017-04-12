@@ -52,7 +52,7 @@
 		<suspend_validator>false</suspend_validator>
 		<export_setting>
 			<export_ddl_setting>
-				<output_path>DB\用户\sql\user.sql</output_path>
+				<output_path>C:\Users\Administrator\Desktop\异常\user.sql</output_path>
 				<encoding>UTF-8</encoding>
 				<line_feed>CR+LF</line_feed>
 				<is_open_after_saved>true</is_open_after_saved>
@@ -61,13 +61,13 @@
 				<ddl_target>
 					<create_comment>true</create_comment>
 					<create_foreignKey>false</create_foreignKey>
-					<create_index>true</create_index>
+					<create_index>false</create_index>
 					<create_sequence>false</create_sequence>
 					<create_table>true</create_table>
 					<create_tablespace>false</create_tablespace>
 					<create_trigger>false</create_trigger>
-					<create_view>true</create_view>
-					<drop_index>true</drop_index>
+					<create_view>false</create_view>
+					<drop_index>false</drop_index>
 					<drop_sequence>false</drop_sequence>
 					<drop_table>true</drop_table>
 					<drop_tablespace>false</drop_tablespace>
@@ -106,8 +106,8 @@
 				<is_open_after_saved>true</is_open_after_saved>
 			</export_image_setting>
 			<export_java_setting>
-				<java_output>C:\Users\Administrator\Desktop\prc</java_output>
-				<package_name>com.wishfulcloud.data.entity</package_name>
+				<java_output>C:\Users\Administrator\Desktop\异常</java_output>
+				<package_name>entity</package_name>
 				<class_name_suffix></class_name_suffix>
 				<src_file_encoding>UTF-8</src_file_encoding>
 				<with_hibernate>false</with_hibernate>
@@ -146,7 +146,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2013-04-23 21:13:37</creation_date>
-			<updated_date>2017-04-12 17:52:47</updated_date>
+			<updated_date>2017-04-12 18:02:08</updated_date>
 			<model_property>
 				<name>Project Name</name>
 				<value>JeeSite</value>
